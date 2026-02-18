@@ -21,7 +21,7 @@ const setIO = (socketIO) => {
 // 1. Initialize the Fyers Model
 const fyersModel = new fyers.fyersModel();
 fyersModel.setAppId(process.env.APP_ID);
-fyersModel.setRedirectUrl(`http://127.0.0.1:${PORT}/api/fyers/callback`);
+fyersModel.setRedirectUrl(`https://fyersbackend.onrender.com/api/fyers/callback`);
 
 // 2. ROUTE: Generate the Login URL
 
